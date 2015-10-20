@@ -1,0 +1,134 @@
+#popupBody {
+  width:400px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #eee;
+}
+
+#indexBody {
+  width:780px;
+  background-color: #eee;
+  padding-bottom: 20px;
+}
+
+
+.form-signin {
+  max-width: 375px;
+  min-width: 300px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.row{
+	margin:0px;
+}
+
+label {
+  padding-top: 5px;
+}
+
+.button-container {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+}
+
+.button-container a {
+  padding: 4px 10px;
+  float: left;
+}
+
+.table div.panel.panel-default {
+  max-height: 471px;
+  overflow: scroll;
+}
+
+.fieldset {
+  padding: 3px 0;
+}
+
+.retailer-search .input-group {
+  padding: 5px 4%;
+}
+
+.panel.retailer-search {
+  margin-bottom: 0;
+}
+
+ul.nav ul.dropdown-menu li {
+  cursor: pointer;
+}
+
+select#source {
+  font-size: 16px;
+}
+
+#history{
+	margin-right:15px;
+  display:none;
+}
+
+#export {
+  display: none;
+}
+
+.well {
+	min-height: 20px;
+	padding: 19px;
+	margin-top:15px;
+	margin-bottom: 0px;
+	background-color: #f5f5f5;
+	border: 1px solid #e3e3e3;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+	display:none;
+}
+#urlTable{
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+#visitedTable{
+	margin-bottom: 0px;
+	margin-top: 15px;
+}
+#history_content{
+	display:none;
+}
+#visited_content{
+	display:none;
+}
+#notification{
+	display:none; text-align:center; color:red;margin-top: 17px;
+}

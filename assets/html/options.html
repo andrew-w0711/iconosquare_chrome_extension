@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/common.js"></script>
+<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+</head>
+<body id="options-body">
+	<div class="container" id="options">
+		<div class="page-header">
+			<h1>Iconosquare Bot Options</h1>
+		</div>
+		<div id="status">
+		</div>
+	</div>
+	<div class="container" id="database">
+		<div class="page-header">
+			<h2>Database tables</h2>
+		</div>
+		<ul class="nav nav-tabs">
+			<li role="presentation" class="tab" table="hashtags"><a href="#">Hashtags</a></li>
+			<li role="presentation" class="tab" table="iconos"><a href="#">Iconosquares</a></li>
+			<!-- <li role="presentation"><a href="">Completes</a></li> -->
+		</ul>
+		<div class="clearfix hidden table" id="hashtags">
+			<div class="panel panel-default">
+				<!-- Default panel contents -->
+				<!-- <div class="panel-heading">Leads table</div> -->
+				<!-- Table -->
+				<table class="table">
+					<thead>
+						<th>ID</th>
+						<th>Name</th>
+						<th>Search Option</th>
+						<th>Searched at</th>
+						<th>Download</th>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="clearfix hidden table" id="iconos">
+			<div class="panel panel-default">
+				<!-- Default panel contents -->
+				<!-- <div class="panel-heading">Contacts table</div> -->
+				<!-- Table -->
+				<table class="table">
+					<thead>
+						<th>ID</th>
+						<th>Hashtag</th>
+                        <th>Picture</th>
+                        <th>Profile</th>
+                        <th>Followers</th>
+                        <th>Medias</th>
+                        <th>Facebook</th>
+                        <th>FB count</th>
+                        <th>Twitter</th>
+                        <th>TW count</th>
+                        <th>Instagram</th>
+                        <th>Ing Count</th>
+                        <th>Posted Date</th>
+                        <!-- <th>Action</th> -->
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<<!-- div>
+			<a id="download" class="btn btn-primary hide" style="margin:0 auto;max-width:130px;display:block;" download="Iconosquares.csv">Download</a>
+		</div> -->
+	</div>
+	<script src="../js/options.js"></script>
+</body>
+</html>

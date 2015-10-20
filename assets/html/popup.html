@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="../js/common.js"></script>
+    <script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/popup.js"></script>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+	<style>
+		.wrapper {
+			padding: 0;
+			text-align: center;
+			min-width: 250px;
+			background: #F7F7F9;
+		}
+		.panel .input-group {
+			margin-bottom: 10px;
+		}
+	</style>
+	<div class="wrapper container">
+		<div class="row">
+			<div class="panel panel-default bot clearfix panel-primary" style="margin-bottom:0;">
+				<div class="panel-heading">
+					<h4>Iconosquare Options</h4>
+				</div>
+				<div class="panel-body">
+					<div class="input-group search-option">
+						<div class="input-group-addon">Search Option</div>
+						<select class="form-control" id="option">
+							<option class="form-control" value="full">Full</option>
+							<option class="form-control" value="daily">Daily</option>
+						</select>
+					</div>
+					<div class="fieldset hashtag-option">
+						<input class="form-control" placeholder="Hashtag" id="hashtag" >
+					</div>
+					<div class="fieldset">
+						<input type="button" class="btn btn-primary " id="start" value="Start" style="width:45%;">
+						<input type="button" class="btn btn-danger " title="You will lost previous search result" id="restart" value="Restart" style="width:45%;">
+						<input type="button" class="btn btn-warning" id="stop" value="Stop" style="width:50%;">
+					</div>
+					<div class="fieldset">
+						<a class="btn btn-success hide" id="download" title="Click here to download the csv file." download="Iconos.csv" style="">Download<span class="badge"></span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
